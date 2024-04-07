@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class sessionForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,63 +22,96 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Button1 = New Button()
-        Button2 = New Button()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
+        ouvrirButton = New Button()
+        annulerButton = New Button()
+        userTextBox = New TextBox()
+        mdpTextBox = New TextBox()
+        abonnetLabel = New Label()
+        erreurLabel = New Label()
         SuspendLayout()
         ' 
-        ' Button1
+        ' ouvrirButton
         ' 
-        Button1.Location = New Point(188, 268)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(75, 23)
-        Button1.TabIndex = 0
-        Button1.Text = "ouvrire"
-        Button1.UseVisualStyleBackColor = True
+        ouvrirButton.Location = New Point(228, 447)
+        ouvrirButton.Margin = New Padding(4, 5, 4, 5)
+        ouvrirButton.Name = "ouvrirButton"
+        ouvrirButton.Size = New Size(107, 38)
+        ouvrirButton.TabIndex = 0
+        ouvrirButton.Text = "Ouvrir"
+        ouvrirButton.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' annulerButton
         ' 
-        Button2.Location = New Point(345, 268)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(75, 23)
-        Button2.TabIndex = 1
-        Button2.Text = "cancel"
-        Button2.UseVisualStyleBackColor = True
+        annulerButton.Location = New Point(388, 447)
+        annulerButton.Margin = New Padding(4, 5, 4, 5)
+        annulerButton.Name = "annulerButton"
+        annulerButton.Size = New Size(107, 38)
+        annulerButton.TabIndex = 1
+        annulerButton.Text = "Annuler"
+        annulerButton.UseVisualStyleBackColor = True
         ' 
-        ' TextBox1
+        ' userTextBox
         ' 
-        TextBox1.Location = New Point(188, 105)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 2
-        TextBox1.Text = "nom d'utilisateur"
+        userTextBox.Location = New Point(269, 205)
+        userTextBox.Margin = New Padding(4, 5, 4, 5)
+        userTextBox.Name = "userTextBox"
+        userTextBox.PlaceholderText = "Nom d'utilisateur"
+        userTextBox.Size = New Size(190, 31)
+        userTextBox.TabIndex = 2
         ' 
-        ' TextBox2
+        ' mdpTextBox
         ' 
-        TextBox2.Location = New Point(188, 186)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(100, 23)
-        TextBox2.TabIndex = 3
-        TextBox2.Text = "mot de passe"
+        mdpTextBox.Location = New Point(269, 310)
+        mdpTextBox.Margin = New Padding(4, 5, 4, 5)
+        mdpTextBox.Name = "mdpTextBox"
+        mdpTextBox.PlaceholderText = "Mot de passe"
+        mdpTextBox.Size = New Size(190, 31)
+        mdpTextBox.TabIndex = 3
+        mdpTextBox.UseSystemPasswordChar = True
         ' 
-        ' Form2
+        ' abonnetLabel
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        abonnetLabel.AutoSize = True
+        abonnetLabel.Font = New Font("Segoe UI Black", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        abonnetLabel.Location = New Point(254, 61)
+        abonnetLabel.Name = "abonnetLabel"
+        abonnetLabel.Size = New Size(223, 54)
+        abonnetLabel.TabIndex = 4
+        abonnetLabel.Text = "ABONNET"
+        ' 
+        ' erreurLabel
+        ' 
+        erreurLabel.AutoSize = True
+        erreurLabel.ForeColor = Color.Red
+        erreurLabel.Location = New Point(228, 387)
+        erreurLabel.Name = "erreurLabel"
+        erreurLabel.Size = New Size(250, 25)
+        erreurLabel.TabIndex = 5
+        erreurLabel.Text = "Erreur! Ce compte n'existe pas"
+        erreurLabel.Visible = False
+        ' 
+        ' sessionForm
+        ' 
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(544, 352)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
-        Name = "Form2"
-        Text = "nouvelle session"
+        ClientSize = New Size(777, 587)
+        Controls.Add(erreurLabel)
+        Controls.Add(abonnetLabel)
+        Controls.Add(mdpTextBox)
+        Controls.Add(userTextBox)
+        Controls.Add(annulerButton)
+        Controls.Add(ouvrirButton)
+        Margin = New Padding(4, 5, 4, 5)
+        Name = "sessionForm"
+        Text = "Nouvelle Session"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents ouvrirButton As Button
+    Friend WithEvents annulerButton As Button
+    Friend WithEvents userTextBox As TextBox
+    Friend WithEvents mdpTextBox As TextBox
+    Friend WithEvents abonnetLabel As Label
+    Friend WithEvents erreurLabel As Label
 End Class

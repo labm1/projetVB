@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form4
+Partial Class infoContratForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,68 +22,88 @@ Partial Class Form4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Button1 = New Button()
-        Button2 = New Button()
-        ListBox1 = New ListBox()
-        Button3 = New Button()
+        majButton = New Button()
+        sortirButton = New Button()
+        infoListBox = New ListBox()
+        supprimerButton = New Button()
+        infoLabel = New Label()
         SuspendLayout()
         ' 
-        ' Button1
+        ' majButton
         ' 
-        Button1.Font = New Font("Microsoft Sans Serif", 8.25F)
-        Button1.Location = New Point(117, 388)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(111, 23)
-        Button1.TabIndex = 0
-        Button1.Text = "mettre a jour"
-        Button1.UseVisualStyleBackColor = True
+        majButton.Font = New Font("Microsoft Sans Serif", 8.25F)
+        majButton.Location = New Point(167, 647)
+        majButton.Margin = New Padding(4, 5, 4, 5)
+        majButton.Name = "majButton"
+        majButton.Size = New Size(159, 38)
+        majButton.TabIndex = 0
+        majButton.Text = "Mettre à jour"
+        majButton.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' sortirButton
         ' 
-        Button2.Font = New Font("Microsoft Sans Serif", 8.25F)
-        Button2.Location = New Point(462, 388)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(75, 23)
-        Button2.TabIndex = 1
-        Button2.Text = "sortir"
-        Button2.UseVisualStyleBackColor = True
+        sortirButton.Font = New Font("Microsoft Sans Serif", 8.25F)
+        sortirButton.Location = New Point(660, 647)
+        sortirButton.Margin = New Padding(4, 5, 4, 5)
+        sortirButton.Name = "sortirButton"
+        sortirButton.Size = New Size(107, 38)
+        sortirButton.TabIndex = 1
+        sortirButton.Text = "Sortir"
+        sortirButton.UseVisualStyleBackColor = True
         ' 
-        ' ListBox1
+        ' infoListBox
         ' 
-        ListBox1.Font = New Font("Microsoft Sans Serif", 8.25F)
-        ListBox1.FormattingEnabled = True
-        ListBox1.ItemHeight = 13
-        ListBox1.Location = New Point(117, 93)
-        ListBox1.Name = "ListBox1"
-        ListBox1.Size = New Size(420, 264)
-        ListBox1.TabIndex = 2
+        infoListBox.Font = New Font("Microsoft Sans Serif", 8.25F)
+        infoListBox.FormattingEnabled = True
+        infoListBox.ItemHeight = 20
+        infoListBox.Items.AddRange(New Object() {"Numéro de contrat: ", "Nom: ", "type de client: ", "Date de début: ", "Date de fin: ", "Équipement loué: ", "Nombre d'équipement loué: ", "", "Fréquence des paiements: ", "Frais de locations total: ", "Frais de locations payés: ", "Pourcentage taxes: ", "", "Dernier paiement: ", "type de paiement: "})
+        infoListBox.Location = New Point(167, 155)
+        infoListBox.Margin = New Padding(4, 5, 4, 5)
+        infoListBox.Name = "infoListBox"
+        infoListBox.Size = New Size(598, 424)
+        infoListBox.TabIndex = 2
         ' 
-        ' Button3
+        ' supprimerButton
         ' 
-        Button3.Font = New Font("Microsoft Sans Serif", 8.25F)
-        Button3.Location = New Point(294, 388)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(75, 23)
-        Button3.TabIndex = 3
-        Button3.Text = "suprimer"
-        Button3.UseVisualStyleBackColor = True
+        supprimerButton.Font = New Font("Microsoft Sans Serif", 8.25F)
+        supprimerButton.Location = New Point(420, 647)
+        supprimerButton.Margin = New Padding(4, 5, 4, 5)
+        supprimerButton.Name = "supprimerButton"
+        supprimerButton.Size = New Size(107, 38)
+        supprimerButton.TabIndex = 3
+        supprimerButton.Text = "Supprimer"
+        supprimerButton.UseVisualStyleBackColor = True
         ' 
-        ' Form4
+        ' infoLabel
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        infoLabel.AutoSize = True
+        infoLabel.Font = New Font("Segoe UI Black", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        infoLabel.Location = New Point(216, 77)
+        infoLabel.Name = "infoLabel"
+        infoLabel.Size = New Size(501, 48)
+        infoLabel.TabIndex = 4
+        infoLabel.Text = "Informations sur le contrat"
+        ' 
+        ' infoContratForm
+        ' 
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(586, 450)
-        Controls.Add(Button3)
-        Controls.Add(ListBox1)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
-        Name = "Form4"
-        Text = "info contrat"
+        ClientSize = New Size(837, 750)
+        Controls.Add(infoLabel)
+        Controls.Add(supprimerButton)
+        Controls.Add(infoListBox)
+        Controls.Add(sortirButton)
+        Controls.Add(majButton)
+        Margin = New Padding(4, 5, 4, 5)
+        Name = "infoContratForm"
+        Text = "Info Contrat"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Button3 As Button
+    Friend WithEvents majButton As Button
+    Friend WithEvents sortirButton As Button
+    Friend WithEvents infoListBox As ListBox
+    Friend WithEvents supprimerButton As Button
+    Friend WithEvents infoLabel As Label
 End Class

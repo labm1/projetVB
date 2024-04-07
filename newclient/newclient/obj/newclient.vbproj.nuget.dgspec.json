@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Robin\\source\\repos\\newclient\\newclient\\newclient.vbproj": {}
+    "C:\\Users\\mlabe\\Source\\Repos\\projetVB\\newclient\\newclient\\newclient.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Robin\\source\\repos\\newclient\\newclient\\newclient.vbproj": {
+    "C:\\Users\\mlabe\\Source\\Repos\\projetVB\\newclient\\newclient\\newclient.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Robin\\source\\repos\\newclient\\newclient\\newclient.vbproj",
+        "projectUniqueName": "C:\\Users\\mlabe\\Source\\Repos\\projetVB\\newclient\\newclient\\newclient.vbproj",
         "projectName": "newclient",
-        "projectPath": "C:\\Users\\Robin\\source\\repos\\newclient\\newclient\\newclient.vbproj",
-        "packagesPath": "C:\\Users\\Robin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Robin\\source\\repos\\newclient\\newclient\\obj\\",
+        "projectPath": "C:\\Users\\mlabe\\Source\\Repos\\projetVB\\newclient\\newclient\\newclient.vbproj",
+        "packagesPath": "C:\\Users\\mlabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mlabe\\Source\\Repos\\projetVB\\newclient\\newclient\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mlabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

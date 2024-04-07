@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form3
+Partial Class gestionContratForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,82 +22,114 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Button1 = New Button()
-        Label1 = New Label()
-        ComboBox1 = New ComboBox()
-        Label2 = New Label()
-        Button2 = New Button()
+        creerButton = New Button()
+        creerLabel = New Label()
+        contratComboBox = New ComboBox()
+        contratLabel = New Label()
+        choisirButton = New Button()
+        menuButton = New Button()
+        nomMenuLabel = New Label()
         SuspendLayout()
         ' 
-        ' Button1
+        ' creerButton
         ' 
-        Button1.Font = New Font("Ink Free", 9F)
-        Button1.Location = New Point(65, 245)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(75, 23)
-        Button1.TabIndex = 0
-        Button1.Text = "creer nouveau contrat"
-        Button1.UseVisualStyleBackColor = True
+        creerButton.Font = New Font("Ink Free", 9F)
+        creerButton.Location = New Point(93, 408)
+        creerButton.Margin = New Padding(4, 5, 4, 5)
+        creerButton.Name = "creerButton"
+        creerButton.Size = New Size(108, 38)
+        creerButton.TabIndex = 0
+        creerButton.Text = "Créer"
+        creerButton.UseVisualStyleBackColor = True
         ' 
-        ' Label1
+        ' creerLabel
         ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Ink Free", 9F)
-        Label1.Location = New Point(65, 208)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(118, 15)
-        Label1.TabIndex = 1
-        Label1.Text = "creer nouveau contrat"
+        creerLabel.AutoSize = True
+        creerLabel.Font = New Font("Ink Free", 9F)
+        creerLabel.Location = New Point(93, 347)
+        creerLabel.Margin = New Padding(4, 0, 4, 0)
+        creerLabel.Name = "creerLabel"
+        creerLabel.Size = New Size(202, 22)
+        creerLabel.TabIndex = 1
+        creerLabel.Text = "Créer un nouveau contrat"
         ' 
-        ' ComboBox1
+        ' contratComboBox
         ' 
-        ComboBox1.Font = New Font("Ink Free", 9F)
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(66, 81)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(121, 23)
-        ComboBox1.TabIndex = 2
-        ComboBox1.Text = "nom des contrat"
+        contratComboBox.Font = New Font("Ink Free", 9F)
+        contratComboBox.FormattingEnabled = True
+        contratComboBox.Location = New Point(94, 135)
+        contratComboBox.Margin = New Padding(4, 5, 4, 5)
+        contratComboBox.Name = "contratComboBox"
+        contratComboBox.Size = New Size(171, 30)
+        contratComboBox.TabIndex = 2
+        contratComboBox.Text = "nom des contrats"
         ' 
-        ' Label2
+        ' contratLabel
         ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Ink Free", 9F)
-        Label2.Location = New Point(65, 44)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(91, 15)
-        Label2.TabIndex = 3
-        Label2.Text = "contrat existant"
+        contratLabel.AutoSize = True
+        contratLabel.Font = New Font("Ink Free", 9F)
+        contratLabel.Location = New Point(93, 73)
+        contratLabel.Margin = New Padding(4, 0, 4, 0)
+        contratLabel.Name = "contratLabel"
+        contratLabel.Size = New Size(155, 22)
+        contratLabel.TabIndex = 3
+        contratLabel.Text = "Contrats existants"
         ' 
-        ' Button2
+        ' choisirButton
         ' 
-        Button2.Font = New Font("Ink Free", 9F)
-        Button2.Location = New Point(66, 121)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(75, 23)
-        Button2.TabIndex = 4
-        Button2.Text = "choisis"
-        Button2.UseVisualStyleBackColor = True
+        choisirButton.Font = New Font("Ink Free", 9F)
+        choisirButton.Location = New Point(94, 202)
+        choisirButton.Margin = New Padding(4, 5, 4, 5)
+        choisirButton.Name = "choisirButton"
+        choisirButton.Size = New Size(107, 38)
+        choisirButton.TabIndex = 4
+        choisirButton.Text = "Choisir"
+        choisirButton.UseVisualStyleBackColor = True
         ' 
-        ' Form3
+        ' menuButton
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        menuButton.Font = New Font("Ink Free", 9F)
+        menuButton.Location = New Point(93, 537)
+        menuButton.Margin = New Padding(4, 5, 4, 5)
+        menuButton.Name = "menuButton"
+        menuButton.Size = New Size(108, 38)
+        menuButton.TabIndex = 5
+        menuButton.Text = "Menu"
+        menuButton.UseVisualStyleBackColor = True
+        ' 
+        ' nomMenuLabel
+        ' 
+        nomMenuLabel.AutoSize = True
+        nomMenuLabel.Location = New Point(528, 564)
+        nomMenuLabel.Name = "nomMenuLabel"
+        nomMenuLabel.Size = New Size(0, 25)
+        nomMenuLabel.TabIndex = 6
+        nomMenuLabel.Visible = False
+        ' 
+        ' gestionContratForm
+        ' 
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(434, 454)
-        Controls.Add(Button2)
-        Controls.Add(Label2)
-        Controls.Add(ComboBox1)
-        Controls.Add(Label1)
-        Controls.Add(Button1)
-        Name = "Form3"
-        Text = "gestion de contrat"
+        ClientSize = New Size(620, 607)
+        Controls.Add(nomMenuLabel)
+        Controls.Add(menuButton)
+        Controls.Add(choisirButton)
+        Controls.Add(contratLabel)
+        Controls.Add(contratComboBox)
+        Controls.Add(creerLabel)
+        Controls.Add(creerButton)
+        Margin = New Padding(4, 5, 4, 5)
+        Name = "gestionContratForm"
+        Text = "Gestion de Contrats"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Button2 As Button
+    Friend WithEvents creerButton As Button
+    Friend WithEvents creerLabel As Label
+    Friend WithEvents contratComboBox As ComboBox
+    Friend WithEvents contratLabel As Label
+    Friend WithEvents choisirButton As Button
+    Friend WithEvents menuButton As Button
+    Friend WithEvents nomMenuLabel As Label
 End Class
