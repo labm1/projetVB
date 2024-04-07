@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\newclient",
+    "\\WinFormsApp1\\WindowsApp1",
+    "\\WinFormsApp1\\WindowsApp1\\WindowsApp1"
   ],
-  "SelectedNode": "\\C:\\Users\\mlabe\\Source\\Repos\\projetVB",
   "PreviewInSolutionExplorer": false
 }
