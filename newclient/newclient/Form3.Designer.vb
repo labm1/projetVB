@@ -33,7 +33,7 @@ Partial Class gestionContratForm
         ' 
         ' creerButton
         ' 
-        creerButton.Font = New Font("Ink Free", 9F)
+        creerButton.Font = New Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         creerButton.Location = New Point(93, 408)
         creerButton.Margin = New Padding(4, 5, 4, 5)
         creerButton.Name = "creerButton"
@@ -45,39 +45,39 @@ Partial Class gestionContratForm
         ' creerLabel
         ' 
         creerLabel.AutoSize = True
-        creerLabel.Font = New Font("Ink Free", 9F)
+        creerLabel.Font = New Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         creerLabel.Location = New Point(93, 347)
         creerLabel.Margin = New Padding(4, 0, 4, 0)
         creerLabel.Name = "creerLabel"
-        creerLabel.Size = New Size(202, 22)
+        creerLabel.Size = New Size(189, 20)
         creerLabel.TabIndex = 1
         creerLabel.Text = "Créer un nouveau contrat"
         ' 
         ' contratComboBox
         ' 
-        contratComboBox.Font = New Font("Ink Free", 9F)
+        contratComboBox.Font = New Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         contratComboBox.FormattingEnabled = True
         contratComboBox.Location = New Point(94, 135)
         contratComboBox.Margin = New Padding(4, 5, 4, 5)
         contratComboBox.Name = "contratComboBox"
-        contratComboBox.Size = New Size(171, 30)
+        contratComboBox.Size = New Size(171, 28)
         contratComboBox.TabIndex = 2
         contratComboBox.Text = "nom des contrats"
         ' 
         ' contratLabel
         ' 
         contratLabel.AutoSize = True
-        contratLabel.Font = New Font("Ink Free", 9F)
+        contratLabel.Font = New Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         contratLabel.Location = New Point(93, 73)
         contratLabel.Margin = New Padding(4, 0, 4, 0)
         contratLabel.Name = "contratLabel"
-        contratLabel.Size = New Size(155, 22)
+        contratLabel.Size = New Size(137, 20)
         contratLabel.TabIndex = 3
         contratLabel.Text = "Contrats existants"
         ' 
         ' choisirButton
         ' 
-        choisirButton.Font = New Font("Ink Free", 9F)
+        choisirButton.Font = New Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         choisirButton.Location = New Point(94, 202)
         choisirButton.Margin = New Padding(4, 5, 4, 5)
         choisirButton.Name = "choisirButton"
@@ -88,7 +88,7 @@ Partial Class gestionContratForm
         ' 
         ' menuButton
         ' 
-        menuButton.Font = New Font("Ink Free", 9F)
+        menuButton.Font = New Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         menuButton.Location = New Point(93, 537)
         menuButton.Margin = New Padding(4, 5, 4, 5)
         menuButton.Name = "menuButton"
