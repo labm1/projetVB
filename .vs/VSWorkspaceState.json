@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\newclient",
-    "\\WinFormsApp1\\WindowsApp1",
-    "\\WinFormsApp1\\WindowsApp1\\WindowsApp1"
+    "\\newclient\\newclient"
   ],
+  "SelectedNode": "\\newclient\\newclient.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -66,7 +66,7 @@ Partial Class menuForm
         progButton.Name = "progButton"
         progButton.Size = New Size(253, 34)
         progButton.TabIndex = 3
-        progButton.Text = "Programmation de Site"
+        progButton.Text = "Programmation Page Web"
         progButton.UseVisualStyleBackColor = True
         ' 
         ' appelButton

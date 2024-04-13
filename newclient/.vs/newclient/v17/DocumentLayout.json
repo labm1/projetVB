@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form7.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form7.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form7.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form7.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|c:\\users\\mlabe\\source\\repos\\projetvb\\newclient\\newclient\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E097AA0D-5995-4F8B-A5EB-1238B841E30F}|newclient\\newclient.vbproj|solutionrelative:newclient\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +42,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form2.vb [Conception]",
-              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form2.vb",
-              "RelativeDocumentMoniker": "newclient\\Form2.vb",
-              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form2.vb [Conception]",
-              "RelativeToolTip": "newclient\\Form2.vb [Conception]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-07T22:14:48.225Z",
-              "EditorCaption": " [Conception]"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.vb [Conception]",
-              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form1.vb",
-              "RelativeDocumentMoniker": "newclient\\Form1.vb",
-              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form1.vb [Conception]",
-              "RelativeToolTip": "newclient\\Form1.vb [Conception]",
+              "DocumentIndex": 0,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form2.vb",
+              "RelativeDocumentMoniker": "newclient\\Form2.vb",
+              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form2.vb",
+              "RelativeToolTip": "newclient\\Form2.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-07T22:14:43.323Z",
-              "EditorCaption": " [Conception]"
+              "WhenOpened": "2024-04-13T20:27:00.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Form7.vb [Conception]",
+              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form7.vb",
+              "RelativeDocumentMoniker": "newclient\\Form7.vb",
+              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form7.vb [Conception]",
+              "RelativeToolTip": "newclient\\Form7.vb [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-13T19:25:06.049Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form6.vb",
               "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form6.vb",
               "RelativeDocumentMoniker": "newclient\\Form6.vb",
               "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form6.vb",
               "RelativeToolTip": "newclient\\Form6.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-04-07T22:11:07.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form6.vb [Conception]",
-              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form6.vb",
-              "RelativeDocumentMoniker": "newclient\\Form6.vb",
-              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form6.vb [Conception]",
-              "RelativeToolTip": "newclient\\Form6.vb [Conception]",
+              "DocumentIndex": 6,
+              "Title": "Form7.vb",
+              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form7.vb",
+              "RelativeDocumentMoniker": "newclient\\Form7.vb",
+              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form7.vb",
+              "RelativeToolTip": "newclient\\Form7.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-07T22:11:03.013Z",
-              "EditorCaption": " [Conception]"
+              "WhenOpened": "2024-04-13T19:27:46.444Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Form3.vb",
+              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form3.vb",
+              "RelativeDocumentMoniker": "newclient\\Form3.vb",
+              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form3.vb",
+              "RelativeToolTip": "newclient\\Form3.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAnwAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-13T19:24:12.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form3.vb [Conception]",
               "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form3.vb",
               "RelativeDocumentMoniker": "newclient\\Form3.vb",
               "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form3.vb [Conception]",
               "RelativeToolTip": "newclient\\Form3.vb [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-07T22:08:56.697Z",
+              "WhenOpened": "2024-04-13T19:23:58.242Z",
               "EditorCaption": " [Conception]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.vb",
-              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form3.vb",
-              "RelativeDocumentMoniker": "newclient\\Form3.vb",
-              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form3.vb",
-              "RelativeToolTip": "newclient\\Form3.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Form2.vb [Conception]",
+              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form2.vb",
+              "RelativeDocumentMoniker": "newclient\\Form2.vb",
+              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form2.vb [Conception]",
+              "RelativeToolTip": "newclient\\Form2.vb [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-07T22:03:31.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T19:23:56.478Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form6.vb [Conception]",
+              "DocumentMoniker": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form6.vb",
+              "RelativeDocumentMoniker": "newclient\\Form6.vb",
+              "ToolTip": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\Form6.vb [Conception]",
+              "RelativeToolTip": "newclient\\Form6.vb [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-13T19:23:20.575Z",
+              "EditorCaption": " [Conception]"
             }
           ]
         }

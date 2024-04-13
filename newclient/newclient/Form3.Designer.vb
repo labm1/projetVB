@@ -28,7 +28,6 @@ Partial Class gestionContratForm
         contratLabel = New Label()
         choisirButton = New Button()
         menuButton = New Button()
-        nomMenuLabel = New Label()
         SuspendLayout()
         ' 
         ' creerButton
@@ -97,21 +96,11 @@ Partial Class gestionContratForm
         menuButton.Text = "Menu"
         menuButton.UseVisualStyleBackColor = True
         ' 
-        ' nomMenuLabel
-        ' 
-        nomMenuLabel.AutoSize = True
-        nomMenuLabel.Location = New Point(528, 564)
-        nomMenuLabel.Name = "nomMenuLabel"
-        nomMenuLabel.Size = New Size(0, 25)
-        nomMenuLabel.TabIndex = 6
-        nomMenuLabel.Visible = False
-        ' 
         ' gestionContratForm
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(620, 607)
-        Controls.Add(nomMenuLabel)
         Controls.Add(menuButton)
         Controls.Add(choisirButton)
         Controls.Add(contratLabel)
@@ -131,5 +120,4 @@ Partial Class gestionContratForm
     Friend WithEvents contratLabel As Label
     Friend WithEvents choisirButton As Button
     Friend WithEvents menuButton As Button
-    Friend WithEvents nomMenuLabel As Label
 End Class

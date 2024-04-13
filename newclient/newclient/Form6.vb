@@ -18,13 +18,15 @@
     End Sub
 
     Private Sub contratButton_Click(sender As Object, e As EventArgs) Handles contratButton.Click
-        gestionContratForm.nomMenuLabel.Text = menuLabel.Text
         gestionContratForm.Show()
-        Me.Close()
     End Sub
 
     Private Sub logoutButton_Click(sender As Object, e As EventArgs) Handles logoutButton.Click
         sessionForm.Show()
         Me.Close()
+    End Sub
+
+    Private Sub validationButton_Click(sender As Object, e As EventArgs) Handles validationButton.Click
+        validationForm.Show()
     End Sub
 End Class
