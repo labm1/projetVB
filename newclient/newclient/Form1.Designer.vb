@@ -22,126 +22,84 @@ Partial Class clientForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        nomLabel = New Label()
-        typeClientLabel = New Label()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(clientForm))
         typeClientComboBox = New ComboBox()
         nomTextBox = New TextBox()
-        tempsLabel = New Label()
         tempsTextBox = New TextBox()
         creerButton = New Button()
         annulerButton = New Button()
-        frequenceLabel = New Label()
         frequenceComboBox = New ComboBox()
         equipementComboBox = New ComboBox()
-        equipementLabel = New Label()
         nbComboBox = New ComboBox()
+        infoLabel = New Label()
+        imageTopLeft = New PictureBox()
+        imageBottomRight = New PictureBox()
+        abonnetLogo = New PictureBox()
         nbLabel = New Label()
+        equipementLabel = New Label()
+        frequenceLabel = New Label()
+        tempsLabel = New Label()
+        typeClientLabel = New Label()
+        nomLabel = New Label()
+        CType(imageTopLeft, ComponentModel.ISupportInitialize).BeginInit()
+        CType(imageBottomRight, ComponentModel.ISupportInitialize).BeginInit()
+        CType(abonnetLogo, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' nomLabel
-        ' 
-        nomLabel.AutoSize = True
-        nomLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
-        nomLabel.Location = New Point(66, 65)
-        nomLabel.Margin = New Padding(4, 0, 4, 0)
-        nomLabel.Name = "nomLabel"
-        nomLabel.Size = New Size(115, 20)
-        nomLabel.TabIndex = 0
-        nomLabel.Text = "Nom du Client"
-        ' 
-        ' typeClientLabel
-        ' 
-        typeClientLabel.AutoSize = True
-        typeClientLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
-        typeClientLabel.Location = New Point(65, 157)
-        typeClientLabel.Margin = New Padding(4, 0, 4, 0)
-        typeClientLabel.Name = "typeClientLabel"
-        typeClientLabel.Size = New Size(116, 20)
-        typeClientLabel.TabIndex = 1
-        typeClientLabel.Text = "Type de Client"
         ' 
         ' typeClientComboBox
         ' 
         typeClientComboBox.Font = New Font("Microsoft Sans Serif", 8.25F)
         typeClientComboBox.FormattingEnabled = True
         typeClientComboBox.Items.AddRange(New Object() {"Civil", "Commercial"})
-        typeClientComboBox.Location = New Point(201, 157)
-        typeClientComboBox.Margin = New Padding(4, 5, 4, 5)
+        typeClientComboBox.Location = New Point(202, 96)
         typeClientComboBox.Name = "typeClientComboBox"
-        typeClientComboBox.Size = New Size(263, 28)
+        typeClientComboBox.Size = New Size(185, 21)
         typeClientComboBox.TabIndex = 2
         ' 
         ' nomTextBox
         ' 
         nomTextBox.Font = New Font("Microsoft Sans Serif", 8.25F)
-        nomTextBox.Location = New Point(201, 62)
-        nomTextBox.Margin = New Padding(4, 5, 4, 5)
+        nomTextBox.Location = New Point(202, 66)
         nomTextBox.Name = "nomTextBox"
-        nomTextBox.Size = New Size(263, 26)
+        nomTextBox.Size = New Size(185, 20)
         nomTextBox.TabIndex = 3
-        ' 
-        ' tempsLabel
-        ' 
-        tempsLabel.AutoSize = True
-        tempsLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
-        tempsLabel.Location = New Point(65, 258)
-        tempsLabel.Margin = New Padding(4, 0, 4, 0)
-        tempsLabel.Name = "tempsLabel"
-        tempsLabel.Size = New Size(115, 20)
-        tempsLabel.TabIndex = 4
-        tempsLabel.Text = "Temps Désiré"
         ' 
         ' tempsTextBox
         ' 
         tempsTextBox.Font = New Font("Microsoft Sans Serif", 8.25F)
-        tempsTextBox.Location = New Point(201, 255)
-        tempsTextBox.Margin = New Padding(4, 5, 4, 5)
+        tempsTextBox.Location = New Point(202, 126)
         tempsTextBox.Name = "tempsTextBox"
-        tempsTextBox.Size = New Size(263, 26)
+        tempsTextBox.Size = New Size(185, 20)
         tempsTextBox.TabIndex = 5
         ' 
         ' creerButton
         ' 
         creerButton.Font = New Font("Microsoft Sans Serif", 8.25F)
-        creerButton.Location = New Point(77, 610)
-        creerButton.Margin = New Padding(4, 5, 4, 5)
+        creerButton.Location = New Point(207, 255)
         creerButton.Name = "creerButton"
-        creerButton.Size = New Size(169, 38)
+        creerButton.Size = New Size(75, 23)
         creerButton.TabIndex = 6
-        creerButton.Text = "Créer le Contrat"
+        creerButton.Text = "Créer"
         creerButton.UseVisualStyleBackColor = True
         ' 
         ' annulerButton
         ' 
         annulerButton.Font = New Font("Microsoft Sans Serif", 8.25F)
-        annulerButton.Location = New Point(359, 610)
-        annulerButton.Margin = New Padding(4, 5, 4, 5)
+        annulerButton.Location = New Point(306, 255)
         annulerButton.Name = "annulerButton"
-        annulerButton.Size = New Size(107, 38)
+        annulerButton.Size = New Size(75, 23)
         annulerButton.TabIndex = 7
         annulerButton.Text = "Annuler"
         annulerButton.UseVisualStyleBackColor = True
-        ' 
-        ' frequenceLabel
-        ' 
-        frequenceLabel.AutoSize = True
-        frequenceLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
-        frequenceLabel.Location = New Point(13, 351)
-        frequenceLabel.Margin = New Padding(4, 0, 4, 0)
-        frequenceLabel.Name = "frequenceLabel"
-        frequenceLabel.Size = New Size(186, 20)
-        frequenceLabel.TabIndex = 8
-        frequenceLabel.Text = "Fréquence de Paiement"
         ' 
         ' frequenceComboBox
         ' 
         frequenceComboBox.Font = New Font("Microsoft Sans Serif", 8.25F)
         frequenceComboBox.FormattingEnabled = True
         frequenceComboBox.Items.AddRange(New Object() {"Annuel", "Mensuel"})
-        frequenceComboBox.Location = New Point(201, 348)
-        frequenceComboBox.Margin = New Padding(4, 5, 4, 5)
+        frequenceComboBox.Location = New Point(202, 156)
         frequenceComboBox.Name = "frequenceComboBox"
-        frequenceComboBox.Size = New Size(263, 28)
+        frequenceComboBox.Size = New Size(185, 21)
         frequenceComboBox.TabIndex = 9
         ' 
         ' equipementComboBox
@@ -149,84 +107,171 @@ Partial Class clientForm
         equipementComboBox.Font = New Font("Microsoft Sans Serif", 8.25F)
         equipementComboBox.FormattingEnabled = True
         equipementComboBox.Items.AddRange(New Object() {"Modem", "Ligne Internet", "Micro-Ordinateur"})
-        equipementComboBox.Location = New Point(201, 440)
-        equipementComboBox.Margin = New Padding(4, 5, 4, 5)
+        equipementComboBox.Location = New Point(202, 186)
         equipementComboBox.Name = "equipementComboBox"
-        equipementComboBox.Size = New Size(263, 28)
+        equipementComboBox.Size = New Size(185, 21)
         equipementComboBox.TabIndex = 11
-        ' 
-        ' equipementLabel
-        ' 
-        equipementLabel.AutoSize = True
-        equipementLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
-        equipementLabel.Location = New Point(65, 443)
-        equipementLabel.Margin = New Padding(4, 0, 4, 0)
-        equipementLabel.Name = "equipementLabel"
-        equipementLabel.Size = New Size(97, 20)
-        equipementLabel.TabIndex = 10
-        equipementLabel.Text = "Équipement"
         ' 
         ' nbComboBox
         ' 
         nbComboBox.Font = New Font("Microsoft Sans Serif", 8.25F)
         nbComboBox.FormattingEnabled = True
         nbComboBox.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        nbComboBox.Location = New Point(201, 528)
-        nbComboBox.Margin = New Padding(4, 5, 4, 5)
+        nbComboBox.Location = New Point(202, 216)
         nbComboBox.Name = "nbComboBox"
-        nbComboBox.Size = New Size(263, 28)
+        nbComboBox.Size = New Size(185, 21)
         nbComboBox.TabIndex = 13
+        ' 
+        ' infoLabel
+        ' 
+        infoLabel.Font = New Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        infoLabel.Location = New Point(160, 9)
+        infoLabel.Margin = New Padding(2, 0, 2, 0)
+        infoLabel.Name = "infoLabel"
+        infoLabel.Size = New Size(273, 51)
+        infoLabel.TabIndex = 41
+        infoLabel.Text = "Nouveau client"
+        infoLabel.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' imageTopLeft
+        ' 
+        imageTopLeft.Image = CType(resources.GetObject("imageTopLeft.Image"), Image)
+        imageTopLeft.Location = New Point(-1, -1)
+        imageTopLeft.Name = "imageTopLeft"
+        imageTopLeft.Size = New Size(156, 45)
+        imageTopLeft.SizeMode = PictureBoxSizeMode.StretchImage
+        imageTopLeft.TabIndex = 40
+        imageTopLeft.TabStop = False
+        ' 
+        ' imageBottomRight
+        ' 
+        imageBottomRight.Image = CType(resources.GetObject("imageBottomRight.Image"), Image)
+        imageBottomRight.Location = New Point(442, 266)
+        imageBottomRight.Name = "imageBottomRight"
+        imageBottomRight.Size = New Size(143, 56)
+        imageBottomRight.SizeMode = PictureBoxSizeMode.StretchImage
+        imageBottomRight.TabIndex = 39
+        imageBottomRight.TabStop = False
+        ' 
+        ' abonnetLogo
+        ' 
+        abonnetLogo.Image = CType(resources.GetObject("abonnetLogo.Image"), Image)
+        abonnetLogo.Location = New Point(456, 12)
+        abonnetLogo.Name = "abonnetLogo"
+        abonnetLogo.Size = New Size(116, 25)
+        abonnetLogo.SizeMode = PictureBoxSizeMode.StretchImage
+        abonnetLogo.TabIndex = 38
+        abonnetLogo.TabStop = False
         ' 
         ' nbLabel
         ' 
-        nbLabel.AutoSize = True
         nbLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
-        nbLabel.Location = New Point(13, 531)
-        nbLabel.Margin = New Padding(4, 0, 4, 0)
+        nbLabel.Location = New Point(71, 216)
         nbLabel.Name = "nbLabel"
-        nbLabel.Size = New Size(172, 20)
-        nbLabel.TabIndex = 12
+        nbLabel.Size = New Size(130, 21)
+        nbLabel.TabIndex = 37
         nbLabel.Text = "Nombre d'équipement"
+        nbLabel.TextAlign = ContentAlignment.MiddleRight
+        ' 
+        ' equipementLabel
+        ' 
+        equipementLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
+        equipementLabel.Location = New Point(71, 186)
+        equipementLabel.Name = "equipementLabel"
+        equipementLabel.Size = New Size(130, 21)
+        equipementLabel.TabIndex = 36
+        equipementLabel.Text = "Équipement"
+        equipementLabel.TextAlign = ContentAlignment.MiddleRight
+        ' 
+        ' frequenceLabel
+        ' 
+        frequenceLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
+        frequenceLabel.Location = New Point(71, 156)
+        frequenceLabel.Name = "frequenceLabel"
+        frequenceLabel.Size = New Size(130, 21)
+        frequenceLabel.TabIndex = 35
+        frequenceLabel.Text = "Fréquence de paiement"
+        frequenceLabel.TextAlign = ContentAlignment.MiddleRight
+        ' 
+        ' tempsLabel
+        ' 
+        tempsLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
+        tempsLabel.Location = New Point(71, 126)
+        tempsLabel.Name = "tempsLabel"
+        tempsLabel.Size = New Size(130, 20)
+        tempsLabel.TabIndex = 34
+        tempsLabel.Text = "Temps désiré"
+        tempsLabel.TextAlign = ContentAlignment.MiddleRight
+        ' 
+        ' typeClientLabel
+        ' 
+        typeClientLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
+        typeClientLabel.Location = New Point(71, 96)
+        typeClientLabel.Name = "typeClientLabel"
+        typeClientLabel.Size = New Size(130, 21)
+        typeClientLabel.TabIndex = 33
+        typeClientLabel.Text = "Type de client"
+        typeClientLabel.TextAlign = ContentAlignment.MiddleRight
+        ' 
+        ' nomLabel
+        ' 
+        nomLabel.Font = New Font("Microsoft Sans Serif", 8.25F)
+        nomLabel.Location = New Point(71, 66)
+        nomLabel.Name = "nomLabel"
+        nomLabel.Size = New Size(130, 20)
+        nomLabel.TabIndex = 32
+        nomLabel.Text = "Nom du client"
+        nomLabel.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' clientForm
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(553, 750)
-        Controls.Add(nbComboBox)
+        ClientSize = New Size(584, 321)
+        Controls.Add(infoLabel)
+        Controls.Add(imageTopLeft)
+        Controls.Add(imageBottomRight)
+        Controls.Add(abonnetLogo)
         Controls.Add(nbLabel)
-        Controls.Add(equipementComboBox)
         Controls.Add(equipementLabel)
-        Controls.Add(frequenceComboBox)
         Controls.Add(frequenceLabel)
+        Controls.Add(tempsLabel)
+        Controls.Add(typeClientLabel)
+        Controls.Add(nomLabel)
+        Controls.Add(nbComboBox)
+        Controls.Add(equipementComboBox)
+        Controls.Add(frequenceComboBox)
         Controls.Add(annulerButton)
         Controls.Add(creerButton)
         Controls.Add(tempsTextBox)
-        Controls.Add(tempsLabel)
         Controls.Add(nomTextBox)
         Controls.Add(typeClientComboBox)
-        Controls.Add(typeClientLabel)
-        Controls.Add(nomLabel)
-        Margin = New Padding(4, 5, 4, 5)
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "clientForm"
-        Text = "Nouveau Client"
+        Text = "Abonnet - Nouveau client"
+        CType(imageTopLeft, ComponentModel.ISupportInitialize).EndInit()
+        CType(imageBottomRight, ComponentModel.ISupportInitialize).EndInit()
+        CType(abonnetLogo, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents nomLabel As Label
-    Friend WithEvents typeClientLabel As Label
     Friend WithEvents typeClientComboBox As ComboBox
     Friend WithEvents nomTextBox As TextBox
-    Friend WithEvents tempsLabel As Label
     Friend WithEvents tempsTextBox As TextBox
     Friend WithEvents creerButton As Button
     Friend WithEvents annulerButton As Button
-    Friend WithEvents frequenceLabel As Label
     Friend WithEvents frequenceComboBox As ComboBox
     Friend WithEvents equipementComboBox As ComboBox
-    Friend WithEvents equipementLabel As Label
     Friend WithEvents nbComboBox As ComboBox
+    Friend WithEvents infoLabel As Label
+    Friend WithEvents imageTopLeft As PictureBox
+    Friend WithEvents imageBottomRight As PictureBox
+    Friend WithEvents abonnetLogo As PictureBox
     Friend WithEvents nbLabel As Label
+    Friend WithEvents equipementLabel As Label
+    Friend WithEvents frequenceLabel As Label
+    Friend WithEvents tempsLabel As Label
+    Friend WithEvents typeClientLabel As Label
+    Friend WithEvents nomLabel As Label
 
 End Class

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mlabe\\Source\\Repos\\projetVB\\newclient\\newclient\\newclient.vbproj",
+      "projectUniqueName": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\newclient.vbproj",
       "projectName": "newclient",
-      "projectPath": "C:\\Users\\mlabe\\Source\\Repos\\projetVB\\newclient\\newclient\\newclient.vbproj",
+      "projectPath": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\newclient.vbproj",
       "packagesPath": "C:\\Users\\mlabe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mlabe\\Source\\Repos\\projetVB\\newclient\\newclient\\obj\\",
+      "outputPath": "C:\\Users\\mlabe\\source\\repos\\projetVB\\newclient\\newclient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -22,88 +22,116 @@ Partial Class sessionForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(sessionForm))
         ouvrirButton = New Button()
         annulerButton = New Button()
         userTextBox = New TextBox()
         mdpTextBox = New TextBox()
-        abonnetLabel = New Label()
         erreurLabel = New Label()
+        abonnetLogo = New PictureBox()
+        imageBottomRight = New PictureBox()
+        imageTopLeft = New PictureBox()
+        CType(abonnetLogo, ComponentModel.ISupportInitialize).BeginInit()
+        CType(imageBottomRight, ComponentModel.ISupportInitialize).BeginInit()
+        CType(imageTopLeft, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' ouvrirButton
         ' 
-        ouvrirButton.Location = New Point(228, 447)
-        ouvrirButton.Margin = New Padding(4, 5, 4, 5)
+        ouvrirButton.Location = New Point(203, 266)
         ouvrirButton.Name = "ouvrirButton"
-        ouvrirButton.Size = New Size(107, 38)
+        ouvrirButton.Size = New Size(75, 23)
         ouvrirButton.TabIndex = 0
-        ouvrirButton.Text = "Ouvrir"
+        ouvrirButton.Text = "Connexion"
         ouvrirButton.UseVisualStyleBackColor = True
         ' 
         ' annulerButton
         ' 
-        annulerButton.Location = New Point(388, 447)
-        annulerButton.Margin = New Padding(4, 5, 4, 5)
+        annulerButton.Location = New Point(294, 266)
         annulerButton.Name = "annulerButton"
-        annulerButton.Size = New Size(107, 38)
+        annulerButton.Size = New Size(75, 23)
         annulerButton.TabIndex = 1
-        annulerButton.Text = "Annuler"
+        annulerButton.Text = "Quitter"
         annulerButton.UseVisualStyleBackColor = True
         ' 
         ' userTextBox
         ' 
-        userTextBox.Location = New Point(269, 205)
-        userTextBox.Margin = New Padding(4, 5, 4, 5)
+        userTextBox.Location = New Point(222, 147)
         userTextBox.Name = "userTextBox"
         userTextBox.PlaceholderText = "Nom d'utilisateur"
-        userTextBox.Size = New Size(190, 31)
+        userTextBox.Size = New Size(134, 23)
         userTextBox.TabIndex = 2
         ' 
         ' mdpTextBox
         ' 
-        mdpTextBox.Location = New Point(269, 310)
-        mdpTextBox.Margin = New Padding(4, 5, 4, 5)
+        mdpTextBox.Location = New Point(222, 190)
         mdpTextBox.Name = "mdpTextBox"
         mdpTextBox.PlaceholderText = "Mot de passe"
-        mdpTextBox.Size = New Size(190, 31)
+        mdpTextBox.Size = New Size(134, 23)
         mdpTextBox.TabIndex = 3
         mdpTextBox.UseSystemPasswordChar = True
-        ' 
-        ' abonnetLabel
-        ' 
-        abonnetLabel.AutoSize = True
-        abonnetLabel.Font = New Font("Segoe UI Black", 20F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        abonnetLabel.Location = New Point(254, 61)
-        abonnetLabel.Name = "abonnetLabel"
-        abonnetLabel.Size = New Size(223, 54)
-        abonnetLabel.TabIndex = 4
-        abonnetLabel.Text = "ABONNET"
         ' 
         ' erreurLabel
         ' 
         erreurLabel.AutoSize = True
         erreurLabel.ForeColor = Color.Red
-        erreurLabel.Location = New Point(228, 387)
+        erreurLabel.Location = New Point(203, 237)
+        erreurLabel.Margin = New Padding(2, 0, 2, 0)
         erreurLabel.Name = "erreurLabel"
-        erreurLabel.Size = New Size(250, 25)
+        erreurLabel.Size = New Size(166, 15)
         erreurLabel.TabIndex = 5
         erreurLabel.Text = "Erreur! Ce compte n'existe pas"
         erreurLabel.Visible = False
         ' 
+        ' abonnetLogo
+        ' 
+        abonnetLogo.Image = CType(resources.GetObject("abonnetLogo.Image"), Image)
+        abonnetLogo.Location = New Point(161, 67)
+        abonnetLogo.Name = "abonnetLogo"
+        abonnetLogo.Size = New Size(244, 56)
+        abonnetLogo.SizeMode = PictureBoxSizeMode.StretchImage
+        abonnetLogo.TabIndex = 6
+        abonnetLogo.TabStop = False
+        ' 
+        ' imageBottomRight
+        ' 
+        imageBottomRight.Image = CType(resources.GetObject("imageBottomRight.Image"), Image)
+        imageBottomRight.Location = New Point(442, 266)
+        imageBottomRight.Name = "imageBottomRight"
+        imageBottomRight.Size = New Size(143, 56)
+        imageBottomRight.SizeMode = PictureBoxSizeMode.StretchImage
+        imageBottomRight.TabIndex = 7
+        imageBottomRight.TabStop = False
+        ' 
+        ' imageTopLeft
+        ' 
+        imageTopLeft.Image = CType(resources.GetObject("imageTopLeft.Image"), Image)
+        imageTopLeft.Location = New Point(-1, -1)
+        imageTopLeft.Name = "imageTopLeft"
+        imageTopLeft.Size = New Size(156, 45)
+        imageTopLeft.SizeMode = PictureBoxSizeMode.StretchImage
+        imageTopLeft.TabIndex = 8
+        imageTopLeft.TabStop = False
+        ' 
         ' sessionForm
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(777, 587)
+        ClientSize = New Size(584, 321)
+        Controls.Add(imageTopLeft)
+        Controls.Add(imageBottomRight)
+        Controls.Add(abonnetLogo)
         Controls.Add(erreurLabel)
-        Controls.Add(abonnetLabel)
         Controls.Add(mdpTextBox)
         Controls.Add(userTextBox)
         Controls.Add(annulerButton)
         Controls.Add(ouvrirButton)
-        Margin = New Padding(4, 5, 4, 5)
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "sessionForm"
-        Text = "Nouvelle Session"
+        Text = "Abonnet - Écran de connexion"
+        CType(abonnetLogo, ComponentModel.ISupportInitialize).EndInit()
+        CType(imageBottomRight, ComponentModel.ISupportInitialize).EndInit()
+        CType(imageTopLeft, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -112,6 +140,8 @@ Partial Class sessionForm
     Friend WithEvents annulerButton As Button
     Friend WithEvents userTextBox As TextBox
     Friend WithEvents mdpTextBox As TextBox
-    Friend WithEvents abonnetLabel As Label
     Friend WithEvents erreurLabel As Label
+    Friend WithEvents abonnetLogo As PictureBox
+    Friend WithEvents imageBottomRight As PictureBox
+    Friend WithEvents imageTopLeft As PictureBox
 End Class
