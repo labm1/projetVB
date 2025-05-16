@@ -1,7 +1,6 @@
-# projetVB
-Prototype de système de gestion ABONNET
+# Prototype de système de gestion ABONNET
 
-* login?
+* login
 * validation code client
 * gestion des locations
 * état des équipements
